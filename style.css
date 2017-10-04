@@ -1,0 +1,105 @@
+* {
+  font-family: Calibri, sans-serif;
+}
+
+.header, .content, .underBox {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.booglePic {
+  margin-top: 30px;
+  width: 150px;
+}
+
+.firstTitle {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 300px;
+  border: 1px solid lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: : 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.24);
+}
+
+.profilePic {
+  padding: 20px;
+}
+
+.needHelp {
+  display: block;
+  text-align: right;
+  color: RoyalBlue;
+  margin-top: 0;
+  margin-right: 45px;
+  text-decoration: none;
+}
+
+button, input {
+  width: 200px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+button {
+  background-color: RoyalBlue;
+  color: white;
+  border: none;
+  margin: 5px;
+}
+
+.underBox a:first-child {
+  color: RoyalBlue;
+  text-decoration: none;
+}
+.underBox a:first-child:hover {
+  color: black;
+}
+
+.footer {
+  border-top: 1px solid lightgray;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+}
+
+.footerLeft {
+  float: left;
+  margin-left: 20px;
+}
+
+.footerRight {
+  float: right;
+  margin-right: 30px;
+}
+
+.footerLeft a, .footerRight a {
+  display: inline-block;
+  text-decoration: none;
+  color: gray;
+  padding: 15px;
+  text-align: center;
+}
+
+a:hover {
+  color: black;
+}
+select {
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+  color: gray;
+}
